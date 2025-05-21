@@ -255,7 +255,7 @@ Steps:
 - Use a cursor with the FOR UPDATE clause to lock the rows of employees in a specific department and update their salary.
 - Implement exception handling to handle NO_DATA_FOUND or other errors that may occur.
 
-#### Program:
+#### Program: 
 ```
 DECLARE
    CURSOR emp_cur IS
