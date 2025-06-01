@@ -65,7 +65,7 @@ Square of 6 is 36
 
 ## Program:
 
-```
+```sql
 CREATE OR REPLACE PROCEDURE find_square(p_number IN NUMBER) IS
     v_square NUMBER;
 BEGIN
@@ -99,7 +99,7 @@ END;
 Factorial of 5 is 120
 
 ## Program:
-```
+```sql
 SET SERVEROUTPUT ON;
 
 
@@ -147,7 +147,7 @@ END;
 12 is Even
 
 ## Program:
-```
+```sql
 SET SERVEROUTPUT ON;
 
 
@@ -186,7 +186,7 @@ Reversed number of 1234 is 4321
 
 ## Program:
 
-```
+```sql
 CREATE OR REPLACE FUNCTION reverse_number(p_number IN NUMBER)
 RETURN NUMBER IS
     v_number     NUMBER := p_number;
@@ -236,7 +236,7 @@ Multiplication table of 5:
 
 ## Program:
 
-```
+```sql
 CREATE OR REPLACE PROCEDURE print_table(p_number IN NUMBER) IS
 BEGIN
     DBMS_OUTPUT.PUT_LINE('Multiplication table of ' || p_number || ':');
